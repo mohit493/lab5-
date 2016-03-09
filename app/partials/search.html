@@ -8,8 +8,10 @@ not support it in free version) and list all the dishes that match the search. -
 {{status}}
 <ul>
  <li ng-repeat="dish in dishes">
+ <br>
  <img ng-src="{{dish.ImageURL}}"/>
  {{dish.Title}}
+ <br>
  <a ng-href="#/dish/{{dish.RecipeID}}">View more</a>
  {{dish.Category}} {{dish.Subcategory}}
  </li>

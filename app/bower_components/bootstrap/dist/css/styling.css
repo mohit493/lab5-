@@ -1,0 +1,121 @@
+a {
+    color: black;
+    opacity: 1.5;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.background {
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    position: fixed;
+    z-index: -9999;
+}
+
+.jumbotron {
+    border-radius: 10px;
+    background-color: #F1ECD6;
+    opacity: 0.9;
+}
+
+.h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.caption {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#description {
+    width: 350px;
+    font-weight: normal;
+}
+
+#images {
+    text-align: center;
+    margin: 50px auto;
+}
+
+#images a {
+    margin: 0px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+#instructionsView {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.btn {
+    background-color: #7B52B2;
+}
+
+.title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+.header {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: brown
+}
+
+.navbar {
+    height: 15%;
+    background-color: #7B52B2;
+    color: white;
+    opacity: 0.7;
+}
+
+#searchbar {
+    display: block;
+}
+
+.side-container {
+    padding: 9px 0;
+    left: 20px;
+    top: 60px;
+    width: 20%;
+}
+
+#numGuestsView {
+    background-color: #FC6;
+}
+
+#sidebarView {
+    border-right: inset;
+    height: 50%;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 40px;
+}
+
+.summaryfigure img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-primary {
+    padding-left: 100px;
+}
+
+thead {
+    /*	text-decoration: bold; */
+}
+
+#totalCostHeader {
+    padding-top: 200px;
+}

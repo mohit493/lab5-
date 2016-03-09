@@ -10,6 +10,7 @@ which module to associate the app with. In app.js we create the "dinnerPlanner" 
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/styling.css">
     <!-- jQuery -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
@@ -33,6 +34,16 @@ which module to associate the app with. In app.js we create the "dinnerPlanner" 
 
     <!-- ng-view Angular directive is where the partials will be loaded. app.js configures the $routingProvider
     where you specify which partial should be loaded when. -->
+
+    <!--header-->
+    <nav class="navbar navbar-fixed-to-top" role="navigation">
+        <div class="container">
+            <div class="page-header" align="center">
+                <h1 class="title"><a href = "#/home" class = "navbar-home">HOMELETTE</a></h1>
+                <h3 class="subtitle">From the best chefs in the world directly into your kitchen</h3>
+            </div>
+        </div>
+     </nav>
     <div ng-view></div>
 
   </body>
