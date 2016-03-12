@@ -8,7 +8,7 @@ a:link {
 }
 
 .background {
-    background-image: url(../images/bg.jpg);
+    /*background-image: url(../images/bg.jpg);*/
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
